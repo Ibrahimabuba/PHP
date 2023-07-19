@@ -8,3 +8,4 @@ class AlchemyAPI {
 
 	public function AlchemyAPI() {
 		//Load the API Key from api_key.txt
+		$key = trim(file_get_contents("api_key.txt"));
