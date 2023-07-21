@@ -11,3 +11,4 @@ class AlchemyAPI {
 		$key = trim(file_get_contents("api_key.txt"));
 	
 		if (!$key) {
+			//Keys should not be blank
