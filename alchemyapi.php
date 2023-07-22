@@ -12,3 +12,4 @@ class AlchemyAPI {
 	
 		if (!$key) {
 			//Keys should not be blank
+			echo 'The api_key.txt file appears to be blank, please copy/paste your API key in the file: api_key.txt', PHP_EOL;
