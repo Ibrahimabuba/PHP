@@ -17,3 +17,5 @@ class AlchemyAPI {
 file_put_contents('api_key.txt','');
 			exit(1);
 		}
+
+		$this->_api_key = $key;
