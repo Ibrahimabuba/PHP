@@ -21,3 +21,4 @@ file_put_contents('api_key.txt','');
 		$this->_api_key = $key;
 
 		//Initialize the API Endpoints
+		$this->_ENDPOINTS['sentiment']['url'] = '/url/URLGetTextSentiment';
