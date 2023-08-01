@@ -24,3 +24,4 @@ file_put_contents('api_key.txt','');
 		$this->_ENDPOINTS['sentiment']['url'] = '/url/URLGetTextSentiment';
 		$this->_ENDPOINTS['sentiment']['text'] = '/text/TextGetTextSentiment';
 		$this->_ENDPOINTS['sentiment']['html'] = '/html/HTMLGetTextSentiment';
+		$this->_ENDPOINTS['sentiment_targeted']['url'] = '/url/URLGetTargetedSentiment';
