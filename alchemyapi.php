@@ -29,3 +29,4 @@ file_put_contents('api_key.txt','');
 		$this->_ENDPOINTS['sentiment_targeted']['html'] = '/html/HTMLGetTargetedSentiment';
 		$this->_ENDPOINTS['author']['url'] = '/url/URLGetAuthor';
 		$this->_ENDPOINTS['author']['html'] = '/html/HTMLGetAuthor';
+		$this->_ENDPOINTS['keywords']['url'] = '/url/URLGetRankedKeywords';
