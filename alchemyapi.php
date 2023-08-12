@@ -33,3 +33,4 @@ file_put_contents('api_key.txt','');
 		$this->_ENDPOINTS['keywords']['text'] = '/text/TextGetRankedKeywords';
 		$this->_ENDPOINTS['concepts']['html'] = '/html/HTMLGetRankedConcepts';
 		$this->_ENDPOINTS['concepts']['text'] = '/text/TextGetRankedConcepts';
+		$this->_ENDPOINTS['concepts']['html'] = '/html/HTMLGetRankedConcepts';
