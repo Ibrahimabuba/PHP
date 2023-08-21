@@ -39,3 +39,4 @@ file_put_contents('api_key.txt','');
 		$this->_ENDPOINTS['entities']['html'] = '/html/HTMLGetRankedNamedEntities';
 		$this->_ENDPOINTS['category']['url']  = '/url/URLGetCategory';
 		$this->_ENDPOINTS['category']['text'] = '/text/TextGetCategory';
+		$this->_ENDPOINTS['category']['html'] = '/html/HTMLGetCategory';
