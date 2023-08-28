@@ -43,3 +43,4 @@ file_put_contents('api_key.txt','');
 		$this->_ENDPOINTS['relations']['url']  = '/url/URLGetRelations';
 		$this->_ENDPOINTS['relations']['text'] = '/text/TextGetRelations';
 		$this->_ENDPOINTS['relations']['html'] = '/html/HTMLGetRelations';
+		$this->_ENDPOINTS['language']['url']  = '/url/URLGetLanguage';
