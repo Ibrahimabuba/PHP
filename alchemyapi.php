@@ -48,3 +48,4 @@ file_put_contents('api_key.txt','');
 		$this->_ENDPOINTS['language']['html'] = '/html/HTMLGetLanguage';
 		$this->_ENDPOINTS['text_clean']['url']  = '/url/URLGetText';
 		$this->_ENDPOINTS['text_clean']['html'] = '/html/HTMLGetText';
+		$this->_ENDPOINTS['text_raw']['url']  = '/url/URLGetRawText';
