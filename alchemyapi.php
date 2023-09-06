@@ -52,3 +52,4 @@ file_put_contents('api_key.txt','');
 		$this->_ENDPOINTS['text_raw']['html'] = '/html/HTMLGetRawText';
 		$this->_ENDPOINTS['text_title']['url']  = '/url/URLGetTitle';
 		$this->_ENDPOINTS['text_title']['html'] = '/html/HTMLGetTitle';
+		$this->_ENDPOINTS['feeds']['url']  = '/url/URLGetFeedLinks';
