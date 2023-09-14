@@ -57,3 +57,5 @@ file_put_contents('api_key.txt','');
 		$this->_ENDPOINTS['microformats']['url']  = '/url/URLGetMicroformatData';
 		$this->_ENDPOINTS['microformats']['html'] = '/html/HTMLGetMicroformatData';
 	}
+
+	public function entities($flavor, $data, $options) {
