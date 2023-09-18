@@ -62,3 +62,4 @@ file_put_contents('api_key.txt','');
 		//Make sure this request supports the flavor
 		if (!array_key_exists($flavor, $this->_ENDPOINTS['entities'])) {
 			return array('status'=>'ERROR','statusInfo'=>'Entity extraction for ' . $flavor . ' not available');
+		}
