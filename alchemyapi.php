@@ -77,3 +77,4 @@ file_put_contents('api_key.txt','');
 		}
 
 		//Add the URL encoded data to the options and analyze
+		$options[$flavor] = rawurlencode($data);
