@@ -84,3 +84,4 @@ file_put_contents('api_key.txt','');
 
 	public function sentiment($flavor, $data, $options) {
 		//Make sure this request supports the flavor
+		if (!array_key_exists($flavor, $this->_ENDPOINTS['sentiment'])) {
