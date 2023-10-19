@@ -102,3 +102,4 @@ file_put_contents('api_key.txt','');
 
 		if (!$target) {
 			return array('status'=>'ERROR','statusInfo'=>'targeted sentiment requires a non-null target');
+		}
