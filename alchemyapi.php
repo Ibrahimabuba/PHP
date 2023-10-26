@@ -111,3 +111,4 @@ file_put_contents('api_key.txt','');
 
 
 	public function concepts($flavor, $data, $options) {
+		//Make sure this request supports the flavor
