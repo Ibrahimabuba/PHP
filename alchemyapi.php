@@ -115,3 +115,5 @@ file_put_contents('api_key.txt','');
 		if (!array_key_exists($flavor, $this->_ENDPOINTS['concepts'])) {
 			return array('status'=>'ERROR','statusInfo'=>'Concept tagging for ' . $flavor . ' not available');
 		}
+
+		//Add the URL encoded data to the options and analyze
