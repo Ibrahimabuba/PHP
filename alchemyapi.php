@@ -120,3 +120,6 @@ file_put_contents('api_key.txt','');
 		$options[$flavor] = rawurlencode($data);
 		return $this->analyze($this->_ENDPOINTS['concepts'][$flavor], $options);
 	}
+
+
+	public function author($flavor, $data, $options) {
