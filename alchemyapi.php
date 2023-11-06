@@ -123,3 +123,4 @@ file_put_contents('api_key.txt','');
 
 
 	public function author($flavor, $data, $options) {
+		//Make sure this request supports the flavor
