@@ -126,3 +126,4 @@ file_put_contents('api_key.txt','');
 		//Make sure this request supports the flavor
 		if (!array_key_exists($flavor, $this->_ENDPOINTS['author'])) {
 			return array('status'=>'ERROR','statusInfo'=>'Author extration for ' . $flavor . ' not available');
+		}
