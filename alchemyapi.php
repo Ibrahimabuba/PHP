@@ -137,3 +137,4 @@ file_put_contents('api_key.txt','');
 	public function category($flavor, $data, $options) {
 		//Make sure this request supports the flavor
 		if (!array_key_exists($flavor, $this->_ENDPOINTS['category'])) {
+			return array('status'=>'ERROR','statusInfo'=>'Text categorization for ' . $flavor . ' not available');
