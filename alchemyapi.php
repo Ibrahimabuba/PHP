@@ -147,3 +147,4 @@ file_put_contents('api_key.txt','');
 		
 
 	public function relations($flavor, $data, $options) {
+	//Make sure this request supports the flavor
