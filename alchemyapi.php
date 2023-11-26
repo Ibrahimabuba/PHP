@@ -149,3 +149,4 @@ file_put_contents('api_key.txt','');
 	public function relations($flavor, $data, $options) {
 		//Make sure this request supports the flavor
 			if (!array_key_exists($flavor, $this->_ENDPOINTS['relations'])) {
+			return array('status'=>'ERROR','statusInfo'=>'Relation extraction for ' . $flavor . ' not available');
