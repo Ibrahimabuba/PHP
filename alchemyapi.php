@@ -156,3 +156,6 @@ file_put_contents('api_key.txt','');
 		$options[$flavor] = rawurlencode($data);
 		return $this->analyze($this->_ENDPOINTS['relations'][$flavor], $options);
 	}
+
+	
+	public function language($flavor, $data, $options) {
